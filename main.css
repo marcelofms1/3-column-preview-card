@@ -1,0 +1,125 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    color:white;
+    font-size: 15px;
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:200;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%)
+    ;
+    border-bottom-right-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
+.car_sec{
+    padding:2em;
+}
+
+#container{
+    margin:auto;
+    width:80%;
+}
+
+button{
+    border:none;
+    padding:1em;
+    border-radius: 2em;
+    width:10em
+}
+
+#orange_btn{
+    color:hsl(31, 77%, 52%);
+    box-shadow:4px 5px hsl(31, 73%, 27%) ;
+}
+
+#blue_btn{
+    color:hsl(184, 68%, 22%);
+    box-shadow:4px 5px hsl(184, 100%, 12%) ;
+}
+#green_btn{
+    color:hsl(179, 100%, 13%);
+    box-shadow:4px 5px hsl(178, 100%, 5%) ;
+}
+
+@media only screen and (min-width:1440px) {
+    
+    #container{
+        display:flex;
+        /* margin:0% auto; */
+        margin-top:10em;
+        margin-left:21em;
+    }
+
+    p{
+        padding-top:1em;
+        padding-bottom:4em;
+    }
+
+    #sedans{
+        padding-left:3em;
+        padding-right:3em;
+        height:50vh;
+        width:16%;
+        border-bottom-left-radius: .5em;
+        border-top-right-radius: 0;
+    }
+
+    #suvs{
+        padding-left:3em;
+        padding-right:3em;
+        height:50vh;
+        width:16%;
+    }
+
+    #luxury{
+        padding-left:3em;
+        padding-right:3em;
+        height:50vh;
+        width:16%;
+        border-top-right-radius:.5em;
+        border-bottom-left-radius: 0;
+    }
+
+    #luxury p{
+        padding-bottom:2.5em;
+    }
+
+    .car_icon{
+        padding-bottom:1em;
+    }
+
+    button{
+        transition: 200ms ease-in-out;
+    }
+    button:hover{
+        border:1px solid white;
+        background-color:transparent;
+    }
+    #orange_btn:hover{
+        color:white;
+    }
+    #blue_btn:hover{
+        color:white;
+    }
+    #green_btn:hover{
+        color:white;
+    }
+
+}
